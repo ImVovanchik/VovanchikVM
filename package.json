@@ -1,0 +1,21 @@
+{
+  "name": "vovanchikvm",
+  "version": "0.0.1",
+  "description": "Рандомный клон Collabvm",
+  "scripts": {
+    "serve": "parcel ./web/*.html ./web/*.js ./web/*.css ./web/util/* ./web/decoders/* ./web/crypto/* ./web/input/* vendor/pako/lib/zlib/*.js vendor/pako/lib/utils/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImVovanchik/VovanchikVM.git"
+  },
+  "author": "Вованчик",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ImVovanchik/VovanchikVM/issues"
+  },
+  "homepage": "https://github.com/ImVovanchik/VovanchikVM#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
+}

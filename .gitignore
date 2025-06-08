@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+.env
+
+# Это я сделал чтобы я смог скопировать файлы
+noVNC/
+# Необходимо
+.parcel-cache/
